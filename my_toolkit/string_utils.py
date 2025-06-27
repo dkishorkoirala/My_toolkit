@@ -1,6 +1,5 @@
 def count_words(word):
-    new = word.strip()
-    return len(new)
+    return len("".join(word.split()))
 
 def is_palindrom(word):
     if word == word[::-1]:
