@@ -15,6 +15,3 @@ git clone https://github.com/dkishorkoirala/My_toolkit.git
 
 # (Optional) Install via pip
 pip install git+https://github.com/dkishorkoirala/My_toolkit.git
-
-📄 License
-This project is licensed under the MIT License. See LICENSE for details.
