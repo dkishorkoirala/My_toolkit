@@ -18,6 +18,7 @@ pip install git+https://github.com/dkishorkoirala/My_toolkit.git
 
 
 📦 Package Structure
+markdown
 my_toolkit/
 │
 ├── __init__.py
@@ -26,9 +27,6 @@ my_toolkit/
 └── string_utils.py
 
 🔧 Usage Example
-python
-Copy
-Edit
 from my_toolkit import (
     to_celsius, to_fahrenheit,
     mul, div,
@@ -45,6 +43,7 @@ sentence = "Hello world from Toolkit"
 print(count_words(sentence))  # → 4
 
 print(is_palindrome("radar")) # → YES the word is palindrome
+
 🧪 Function Details
 Function	Description
 to_celsius(f)	Converts Fahrenheit to Celsius
@@ -56,8 +55,11 @@ is_palindrome(s)	Checks if s is a palindrome (case-sensitive)
 
 🤝 Contributing
 Feel free to:
+
 Open issues 🔍
+
 Send pull requests 🛠️
+
 Discuss feature ideas in Issues
 
 📄 License
